@@ -7,7 +7,7 @@ describe('element-one', () => {
   
   
     it('renders a message on button click', () => {
-      cy.get('element-one').get('button', { includeShadowDom: true }).nhover()
+      cy.get('element-one').get('button', { includeShadowDom: true }).scrollIntoView();
     })
   })
   
